@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devgan</groupId>
-	<artifactId>jwtdemo</artifactId>
+	<artifactId>jwt-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jwtdemo</name>
 	<description>Demo project for Spring Boot</description>
