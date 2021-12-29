@@ -20,7 +20,7 @@ public class ApplicationUtils {
         JavaType javaType = mapper.getTypeFactory().constructCollectionType(List.class, type);
         try {
             ClassLoader classLoader = getClass().getClassLoader();
-            File file = new File(classLoader.getResource(filename).getFile());
+            File file = new File(classLoader.getResource("/"+filename).getFile());
             return mapper.readValue(file, javaType);
         } catch (IOException e) {
            throw new RuntimeException(e);
